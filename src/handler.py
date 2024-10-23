@@ -2,9 +2,6 @@ from runpod.serverless.utils import download_files_from_urls, rp_cleanup, rp_deb
 from runpod.serverless.utils.rp_validator import validate
 import runpod
 
-# If your handler runs inference on a model, load the model here.
-# You will want models to be loaded into memory before starting serverless. 
-
 def base64_to_tempfile(base64_file: str) -> str:
     '''
     Convert base64 file to tempfile.
