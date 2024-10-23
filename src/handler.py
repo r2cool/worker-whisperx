@@ -3,7 +3,7 @@
 import runpod
 
 # If your handler runs inference on a model, load the model here.
-# You will want models to be loaded into memory before starting serverless.
+# You will want models to be loaded into memory before starting serverless. 
 
 
 def handler(job):
