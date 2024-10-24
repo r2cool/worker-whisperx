@@ -1,6 +1,11 @@
 from runpod.serverless.utils import download_files_from_urls, rp_cleanup, rp_debugger
 from runpod.serverless.utils.rp_validator import validate
 import runpod
+import predict
+
+MODEL = predict.Predictor()
+MODEL.setup()
+
 
 def base64_to_tempfile(base64_file: str) -> str:
     '''
